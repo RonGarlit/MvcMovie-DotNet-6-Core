@@ -23,6 +23,15 @@ namespace MvcMovie
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            //=====================================================================================
+            // Add any dependency injections stuff here before the builder BUILD() is called!!!
+            //=====================================================================================
+
+            //=====================================================================================
+            // Call Builder.BUILD() -
+            // See: https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.webapplicationbuilder
+            // See: https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.webapplication
+            //=====================================================================================
             var app = builder.Build();
 
             //=====================================================================================
