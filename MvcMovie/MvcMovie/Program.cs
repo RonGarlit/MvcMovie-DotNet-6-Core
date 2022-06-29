@@ -80,7 +80,7 @@ namespace MvcMovie
             //=====================================================================================
             // When authorizing a resource that is routed using endpoint routing, this call must
             // appear between the calls to app.UseRouting() and app.UseEndpoints(...) for the
-            // middleware to function correctly.
+            // middle-ware to function correctly.
             app.UseAuthorization();
             //=====================================================================================
 
